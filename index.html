@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio 3</title>
+    <!-- Boostrap 4.6 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <!-- Fonts Roboto -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- My Style -->
+    <link rel="stylesheet" href="assets/css/style.css" />    
+  </head>
+
+  <body>
+    
+    <div class="container">
+      <h1 class="text-center p-5">Multiplicacion</h1>
+      <div class="form-group">
+        <label for="number">Multiplicacion y Factorial</label>
+        <input type="number" class="form-control w-25" id="number" placeholder="Enter number">
+        <small id="number" class="form-text text-muted">El numero debe estar entre 1 y 20</small>
+        <button type="button" class="btn btn-secondary">Calcular</button>
+        <button type="button" class="btn btn-secondary d-inline-block">Limpiar Consola</button>
+      </div>
+      <div class="row" >
+        <div id="console" class="container"></div>
+        
+      </div>
+    </div>
+
+    <!-- Jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+      integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+      crossorigin="anonymous"
+    ></script>
+    <!-- console code extraido de https://markknol.github.io/console-log-viewer/console-log-viewer.js -->
+    <script src="assets/js/console.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
